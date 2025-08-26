@@ -21,6 +21,7 @@ spec:
         env:
         - name: API_URL
           value: "https://api.adviceslip.com/advice"
+
         resources:
           requests:
             cpu: "100m"
@@ -28,3 +29,4 @@ spec:
           limits:
             cpu: "250m"
             memory: "256Mi"
+
